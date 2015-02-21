@@ -1,0 +1,26 @@
+Using the FingerWise service we would keep track of following services:
+
+Main metrics:
+	1.) User activity in events
+		- Number of users who actually use this payment method in events. 
+
+	2.) User payment tracking 
+		- We track how much money users spend using our system compared to the regular system (credit card etc..)
+
+	3.) User sign ups 
+		- We collect data of how many people connect their credit card with the fingerprint system for the events.
+		- Using this, we can get information about people who are going to use it in events afterwards.
+
+	4.) Time between transactions
+		- We measure the time between each transaction and then compare it with the regular payment methods.
+		- If the time between each transaction (Finger payment system) is smaller compared to the regular card payment system then we can notify
+		our customers that our system is faster and can prevent long standings in queue.
+		
+Metric gathering methods:
+	The best way of gethering required metrics is to test it on a specified amount of people at various events. We can estimate rough numbers when
+	analyzing data gathered from a smaller seed.
+	For example: We can test our initial metrics with 100-200 people at an event. Let's say we take 200 people and divide them into two groups in a bar.
+	One group is only going to use standard paying methods such as credit cards and cash and the other half is going to use our payment system. We can assume
+	our system is going to preform better, even with smaller groups like this.
+	Later, after initial indicators, we can test it out even further on a larger amount of people and optimise our system accordingly. 
+	
