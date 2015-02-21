@@ -1,0 +1,5 @@
+Mockup: http://invis.io/BP2A0A9SH
+
+Note:
+Some of the boxes are not clickable, selectable objects will blink in green color.
+This is the initial idea along with the paper prototype in this folder
